@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">new project</string>
+    <string name="title">ZERO HUNGER</string>
+    <string name="name">DONOR NAME</string>
+    <string name="fooditem">FOOD ITEM</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="fodtiming">FOOD TIMING</string>
+    <string name="address">ADDRESS</string>
+
+</resources>
