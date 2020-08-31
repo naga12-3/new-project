@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp">
 
@@ -24,7 +24,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/name"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
 
             >
 
@@ -101,25 +103,72 @@
             android:layout_height="wrap_content"
             android:hint="@string/fodtiming"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            tools:ignore="ExtraText">
+
+            >
 
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/foodtiming1"/>
+                android:id="@+id/foodtiming1"
+                />
 
-            TextInputEditText.setInputType(InputType.TYPE_NULL);
-            TextInputEditText.setKeyListener(null);
-            TextInputEditText.setOnClickListener(new View.OnClickListener()
-            {
-            @Override
-            public void onClick(View v)
-            {
-            openDatePicker();
-            }
-            });
 
+
+
+
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/date"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/date1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textCursorDrawable="@color/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/time"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time1"/>
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 
@@ -139,7 +188,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/address"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+            >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -147,26 +196,16 @@
                 android:id="@+id/address1"/>
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="20dp"
-
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
-
-        <Button
-            android:id="@+id/submit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
-            android:background="@color/b"
-            android:text="SUBMIT"
-            android:textColorLink="#C32A2A" />
-
-    </LinearLayout>
 
 
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:background="@color/b"
+        android:text="SUBMIT"
+        android:textColorLink="#C32A2A" />
 
 
-    </LinearLayout>
+</LinearLayout>

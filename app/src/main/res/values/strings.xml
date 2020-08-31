@@ -6,5 +6,7 @@
     <string name="quantity">QUANTITY</string>
     <string name="fodtiming">FOOD TIMING</string>
     <string name="address">ADDRESS</string>
+    <string name="date">DATE OF PREPARATION</string>
+    <string name="time">TIME OF PREPARATION</string>
 
 </resources>
