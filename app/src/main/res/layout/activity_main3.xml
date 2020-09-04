@@ -24,10 +24,10 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="30dp"
+                android:layout_height="595dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
                 android:orientation="horizontal"
 
                 >
@@ -47,7 +47,7 @@
                         android:textColor="#181919"
 
 
-                        android:textSize="30dp" />
+                        android:textSize="20dp" />
 
 
                     <TextView
@@ -60,7 +60,7 @@
                         android:textColor="#F1F6F6"
 
 
-                        android:textSize="28dp" />
+                        android:textSize="18dp" />
 
 
                     <TextView
@@ -72,7 +72,7 @@
                         android:textColor="#0E0E0E"
 
 
-                        android:textSize="30dp" />
+                        android:textSize="20dp" />
 
                     <TextView
                         android:id="@+id/fooditem_"
@@ -83,7 +83,7 @@
                         android:textColor="#F1F6F6"
 
 
-                        android:textSize="28dp" />
+                        android:textSize="18dp" />
 
 
                     <TextView
@@ -93,7 +93,7 @@
                         android:fontFamily="@font/bangers"
                         android:text="@string/quantity"
                         android:textColor="#1B1C1C"
-                        android:textSize="30dp"
+                        android:textSize="20dp"
 
 
                         />
@@ -106,7 +106,7 @@
                         android:fontFamily="@font/abril_fatface"
                         android:text="@string/quantity"
                         android:textColor="#F1F6F6"
-                        android:textSize="28dp"
+                        android:textSize="18dp"
 
 
                         />
@@ -119,7 +119,7 @@
                         android:fontFamily="@font/bangers"
                         android:text="@string/date"
                         android:textColor="#1B1C1C"
-                        android:textSize="30dp"
+                        android:textSize="20dp"
 
 
                         />
@@ -132,7 +132,7 @@
                         android:fontFamily="@font/abril_fatface"
                         android:text="@string/date"
                         android:textColor="#F1F6F6"
-                        android:textSize="28dp"
+                        android:textSize="18dp"
 
 
                         />
@@ -145,7 +145,7 @@
                         android:fontFamily="@font/bangers"
                         android:text="@string/address"
                         android:textColor="#1C1E1E"
-                        android:textSize="30dp"
+                        android:textSize="20dp"
 
 
                         />
@@ -153,14 +153,23 @@
                     <TextView
                         android:id="@+id/address_"
                         android:layout_width="match_parent"
-                        android:layout_height="185dp"
+                        android:layout_height="203dp"
                         android:fontFamily="@font/abril_fatface"
                         android:text="@string/address"
                         android:textColor="#F1F6F6"
-                        android:textSize="15dp"
+                        android:textSize="16dp"
 
 
                         />
+
+                    <Button
+                        android:id="@+id/bb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:background="@color/b"
+                        android:text="NEXT"
+                        android:textColor="#171B17" />
 
                 </LinearLayout>
 
