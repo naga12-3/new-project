@@ -19,7 +19,7 @@ import java.util.Calendar;
 
 public class MainActivity2 extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
     //TextInputLayout textInputLayout;
-    Button button;
+    Button button,button1;
     TextInputEditText name1,fooditem1,quantity1,foodtiming1,address1;
      TextInputEditText date,time1;
      TimePickerDialog picker;
@@ -35,6 +35,7 @@ public class MainActivity2 extends AppCompatActivity implements DatePickerDialog
         foodtiming1=findViewById(R.id.foodtiming1);
         address1=findViewById(R.id.address1);
         time1=findViewById(R.id.time1);
+        button1=findViewById(R.id.gps1);
 
         button = (Button) findViewById(R.id.submit);
 
